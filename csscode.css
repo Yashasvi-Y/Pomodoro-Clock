@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(135, 186, 222);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin: 0;
+}
+h1{
+    margin-bottom: 20px;
+}
+.timer {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+#controls{
+    display: flex;
+    gap: 10px;
+}
+button{
+    height: 60px;
+    width: 160px;
+    border-width: 3px;
+    border-radius: 20px;
+    
+}
+#startButton {
+   background-color: #81b622;
+}
+
+#pauseButton {
+    background-color: #f8ea8c;
+}
+
+#resetButton {
+    background-color: #ff5252;
+}
